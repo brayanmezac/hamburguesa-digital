@@ -122,7 +122,7 @@ const propertyDateValue = (
     const publishDate = data?.[0]?.[1]?.[0]?.[1]?.start_date
 
     if (publishDate) {
-      return `${formatDate(publishDate, {
+      return `Published ${formatDate(publishDate, {
         month: 'long'
       })}`
     }
